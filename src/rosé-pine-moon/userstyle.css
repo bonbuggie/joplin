@@ -1,41 +1,31 @@
 /* Style for rendered Markdown */
 
 :root {
-  --ctp-mocha-rosewater: #f5e0dc;
-	--ctp-mocha-flamingo: #f2cdcd;
-	--ctp-mocha-pink: #f5c2e7;
-	--ctp-mocha-mauve: #cba6f7;
-	--ctp-mocha-red: #f38ba8;
-	--ctp-mocha-maroon: #eba0ac;
-	--ctp-mocha-peach: #fab387;
-	--ctp-mocha-yellow: #f9e2af;
-	--ctp-mocha-green: #a6e3a1;
-	--ctp-mocha-teal: #94e2d5;
-	--ctp-mocha-sky: #89dceb;
-	--ctp-mocha-sapphire: #74c7ec;
-	--ctp-mocha-blue: #87b0f9;
-	--ctp-mocha-lavender: #b4befe;
-	--ctp-mocha-text: #c6d0f5;
-	--ctp-mocha-subtext1: #b3bcdf;
-	--ctp-mocha-subtext0: #a1a8c9;
-	--ctp-mocha-overlay2: #8e95b3;
-	--ctp-mocha-overlay1: #7b819d;
-	--ctp-mocha-overlay0: #696d86;
-	--ctp-mocha-surface2: #565970;
-	--ctp-mocha-surface1: #43465a;
-	--ctp-mocha-surface0: #313244;
-	--ctp-mocha-base: #1e1e2e;
-	--ctp-mocha-mantle: #181825;
-	--ctp-mocha-crust: #11111b;
+  --rose: #ea9a97;
+	--love: #eb6f92;
+	--gold: #f6c177;
+	--iris: #c4a7e7;
+	--text: #e0def4;
+	--subtext1: #908caa;
+	--subtext0: #6e6a86;
+	--overlay2: #403d52;
+	--overlay1: #26233a;
+	--overlay0: #393552;
+	--surface2: #524f67;
+	--surface1: #1f1d2e;
+	--surface0: #2a273f;
+	--base: #232136;
+	--mantle: #191724;
+	--crust: #28263C;
   --white: #D9E0EE;
   --black: #000000;
   --light: #C9CFFF;
   --lighter-grey: #C3BAC6;
   --light-grey: #988BA2;
 
-	--font-face: "Noto Sans", Arial, Helvetica, sans-serif;
-  --font-mono: "Roboto Mono", Courier, monospace;
-  --font-size: 13px;
+	--font-face: "Pier Sans", sans-serif;
+  --font-mono: "Fantasque Sans Mono", Courier, monospace;
+  --font-size: 14px;
   --icon-size: 16px;
 
   --regular: 400;
@@ -47,27 +37,27 @@
 }
 
 #rendered-md, body, th, td {
-  background-color: var(--ctp-mocha-base) !important;
+  background-color: var(--base) !important;
   font-family: var(--font-face) !important;
 }
 
 p, ul, ol, li {
-  color: var(--ctp-mocha-text) !important;
+  color: var(--text) !important;
 }
 
 strong {
-  color: var(--ctp-mocha-text) !important;
+  color: var(--text) !important;
 }
 
 hr {
   border: none;
-  border-bottom: 1px solid var(--ctp-mocha-base) !important;
+  border-bottom: 1px solid var(--base) !important;
   margin: 2.5em 0 !important;
 }
 
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {
-  background-color: var(--ctp-mocha-base) !important;
+  background-color: var(--base) !important;
   border-radius: var(--scroll-radius) !important;
 }
 
@@ -76,7 +66,7 @@ hr {
 *********************************************************************************/
 
 h1 {
-  border-bottom: 1px solid var(--ctp-mocha-base) !important;
+  border-bottom: 1px solid var(--base) !important;
   font-weight: var(--bolder) !important;
 }
 
@@ -90,7 +80,7 @@ h2, h3, h4, h5, h6 {
 *********************************************************************************/
 
 a {
-  color: var(--ctp-mocha-rosewater) !important;
+  color: var(--rose) !important;
   text-decoration: underline !important;
 }
 
@@ -100,7 +90,7 @@ a:hover {
 
 /* Joplin icon in Joplin link */
 .resource-icon {
-  background-color: var(--ctp-mocha-rosewater) !important;
+  background-color: var(--rose) !important;
 }
 
 /*********************************************************************************
@@ -108,10 +98,10 @@ a:hover {
 *********************************************************************************/
 
 pre, .hljs {
-  background-color: var(--ctp-mocha-mantle) !important;
+  background-color: var(--mantle) !important;
   font-family: var(--font-mono) !important;
   padding: 10px !important;
-  color: var(--ctp-mocha-text) !important;
+  color: var(--text) !important;
   font-size: 14px !important;
   overflow: scroll !important;
 }
@@ -121,7 +111,7 @@ pre, .hljs {
   background-color: transparent !important;
   border: 0 !important;
   font-family: var(--font-mono) !important;
-  color: var(--ctp-mocha-yellow) !important;
+  color: var(--gold) !important;
   font-size: 14px !important;
 }
 
@@ -130,13 +120,13 @@ pre, .hljs {
 *********************************************************************************/
 
 blockquote {
-  background-color: var(--ctp-mocha-surface0) !important;
+  background-color: var(--surface0) !important;
   padding: 10px !important;
   color: var(--light) !important;
   font-size: 14px !important;
   font-style: italic !important;
   border: 0 !important;
-  border-left: 5px solid var(--ctp-mocha-mantle) !important;
+  border-left: 5px solid var(--mantle) !important;
 }
 
 /*********************************************************************************
@@ -149,14 +139,14 @@ table {
 
 th {
   border: 0 !important;
-  color: var(--ctp-mocha-text) !important;
-  border-bottom: 1px solid var(--ctp-mocha-text) !important;
+  color: var(--text) !important;
+  border-bottom: 1px solid var(--text) !important;
 }
 
 td {
   border: 0 !important;
-  color: var(--ctp-mocha-text) !important;
-  border-bottom: 1px solid var(--ctp-mocha-mantle) !important;
+  color: var(--text) !important;
+  border-bottom: 1px solid var(--mantle) !important;
 }
 
 /*********************************************************************************
@@ -164,18 +154,18 @@ td {
 *********************************************************************************/
 
 ::selection {
-	background-color: var(--ctp-mocha-lavender) !important;
-  color: var(--ctp-mocha-crust) !important;
+	background-color: var(--iris) !important;
+  color: var(--crust) !important;
 }
 
 mark, mark strong {
-  background: var(--ctp-mocha-yellow) !important;
-  color: var(--ctp-mocha-crust) !important;
+  background: var(--gold) !important;
+  color: var(--crust) !important;
 }
 
 /* Highlighted searched item */
 mark[data-markjs] {
-  background-color: var(--ctp-mocha-lavender) !important;
+  background-color: var(--iris) !important;
 }
 
 /*********************************************************************************
@@ -193,8 +183,8 @@ mark[data-markjs] {
 /* Container for spoiler title */
 #spoiler-block-title {
   font-family: var(--font-face) !important;
-  color: var(--ctp-mocha-text) !important;
-  background-color: var(--ctp-mocha-mantle) !important;
+  color: var(--text) !important;
+  background-color: var(--mantle) !important;
   border-radius: 0px;
 }
 
@@ -202,17 +192,17 @@ mark[data-markjs] {
 #spoiler-block-body {
   font-family: var(--font-face) !important;
   color: var(--light) !important;
-  background-color: var(--ctp-mocha-mantle) !important;
+  background-color: var(--mantle) !important;
   border-radius: 0px;
 }
 
 /* Styling of the spoiler block body */
 .summary-content {
-  background-color: var(--ctp-mocha-mantle) !important;
+  background-color: var(--mantle) !important;
 }
 
 .summary-title:before {
-  color: var(--ctp-mocha-lavender) !important;
+  color: var(--iris) !important;
 }
 
 /*********************************************************************************
@@ -230,7 +220,7 @@ mark[data-markjs] {
   p, ul, ol, li {
     color: var(--black) !important;
   }
-  
+
   strong {
     color: var(--black) !important;
   }
@@ -252,7 +242,7 @@ mark[data-markjs] {
   }
 
   a {
-    color: var(--ctp-mocha-red) !important;
+    color: var(--love) !important;
     text-decoration: underline !important;
   }
 
@@ -261,7 +251,7 @@ mark[data-markjs] {
   background-color: transparent !important;
   border: 0 !important;
   font-family: var(--font-mono) !important;
-  /* color: var(--ctp-mocha-yellow) !important; */
+  /* color: var(--gold) !important; */
   color: #1E1E2E !important;
   font-size: 14px !important;
 }
@@ -270,7 +260,7 @@ pre, .hljs {
   background-color: var(--lighter-grey) !important;
   font-family: var(--font-mono) !important;
   padding: 10px !important;
-  color: var(--ctp-mocha-crust) !important;
+  color: var(--crust) !important;
   font-size: 14px !important;
   overflow: scroll !important;
 }
@@ -278,7 +268,7 @@ pre, .hljs {
 blockquote {
   background-color: var(--lighter-grey) !important;
   padding: 10px !important;
-  color: var(--ctp-mocha-crust) !important;
+  color: var(--crust) !important;
   font-size: 14px !important;
   font-style: italic !important;
   border: 0 !important;
