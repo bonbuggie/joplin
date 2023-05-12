@@ -15,7 +15,7 @@
 ## Usage
 
 1. Download the files `userchrome.css` and `userstyle.css` in <kbd>rosé-pine-moon</kbd> from the `src/` directory.
-2. Move these files to the Joplin configuration directory:\
+2. Move these files to the [Joplin](https://joplinapp.org) configuration directory:\
    **Linux/macOS:** `~/.config/joplin/`\
    **Windows:** `C:\Users\%USERNAME%\.config\joplin\`
 3. You need the [Rich Markdown Plugin](https://github.com/CalebJohn/joplin-rich-markdown) and need to enable extra CSS options by going into `Options -> Rich Markdown -> Add additional CSS classes for enhanced customization`.
