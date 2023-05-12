@@ -1,7 +1,7 @@
 
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for nomacs</h2>
+    <h2 align="center">Rosé Pine for Joplin</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -45,4 +45,5 @@ ___
 ## Thanks to
 - [stysebae](https://github.com/stysebae/joplin-vsc-material-theme) for the initial vsc-type themes on which this theme is based. 
 - [ghostx31](https://github.com/ghostx31)
+- [Catppuccin for Joplin](https://github.com/catppuccin/joplin) ([license](https://github.com/rose-pine/geany/blob/3182eea7254d7b3e3b25b1988cbdfb3576bd56a4/LICENSE))
 - [bonbuggie](https://github.com/<bonbuggie>)
